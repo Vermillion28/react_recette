@@ -1,11 +1,20 @@
 
 .card{
-    border: 1px solid;
+    border: 1px solid none;
     border-radius: 20px;
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px rgb(160, 155, 155);
 }
-.card img{
-    z-index: 0;
-    width: 300;
-    height: auto;
-    display: block;
+.cardContent{
+    background-color: rgba(73, 70, 70, 0.3);
+    border-radius: 20px;
+    padding: 10px;
+}
+.cardContent button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
