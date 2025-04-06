@@ -1,5 +1,27 @@
 .body{
-    margin: 25px;
+    margin: 0 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    border-bottom: 1px solid none;
+    box-shadow: 0px 1px rgb(87, 82, 82);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60vh;
+    
+}
+.nav input{
+    border-radius: 5px;
+    font-size: medium;
+    align-self: center;
+    justify-self: start;
+}
+.nav button{
+    align-self: center;
+    justify-self: start;
+    font-size: medium;
+    
 }
 
 .card{
@@ -8,5 +30,4 @@
     gap: 15px;
     width: auto;
     height: 300px;
-
 }

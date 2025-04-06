@@ -43,7 +43,28 @@ let liste_recettes = [
         "Sauce César"
       ],
       "instructions": "1. Lavez la laitue. 2. Coupez le poulet en morceaux. 3. Mélangez la laitue avec le poulet, les croûtons et le parmesan. 4. Ajoutez la sauce César et servez."
+    },
+    {
+      id: 4,
+      nom: "Spaghetti haïtien",
+      image: "/image/spaghetti_haitien.jpeg",
+      categorie: "Plat",
+      temps_preparation: "30 minutes",
+      ingredients: [
+        "250g de spaghetti",
+        "4 saucisses (hot dog)",
+        "1 oignon",
+        "1 poivron",
+        "2 gousses d'ail",
+        "2 cuillères à soupe de pâte de tomate",
+        "1 cube Maggi (ou bouillon)",
+        "1 piment (optionnel)",
+        "Huile",
+        "Sel, poivre"
+      ],
+      instructions: "1. Faites cuire les spaghetti dans de l'eau salée. Égouttez-les et réservez. 2. Coupez les saucisses en rondelles et faites-les revenir dans l'huile. 3. Ajoutez l’oignon, l’ail, le poivron, et la pâte de tomate. Faites revenir. 4. Incorporez le cube Maggi, un peu d’eau, puis les spaghetti. Mélangez bien. 5. Ajoutez le piment si vous aimez épicé. Laissez mijoter 5 minutes et servez chaud."
     }
+    
   ]
   
   export default liste_recettes;
